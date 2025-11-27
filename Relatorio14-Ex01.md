@@ -53,4 +53,4 @@ divindade_olimpica(Deus) :-
     dominio(Deus, Dominio),
     (Dominio = ceu ; Dominio = mar ; Dominio = submundo).
 
-#?- divindade_olimpica(X). para obter a resposta
+%?- divindade_olimpica(X). para obter a resposta
